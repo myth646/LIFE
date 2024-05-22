@@ -190,7 +190,7 @@ def parse_args():
     parser.add_argument("--strategy", type=str, default='split', help='Leaders strategies for using LocalData : split, same, partial')
     parser.add_argument("--leader_epoch", type=int, default=5, help='Leaders in operation')
     parser.add_argument("--allweight", action="store_true", help='1 or all weight')
-    parser.add_argument("--group", nargs='+', type=float, default=None, help='The portion for each group of users')
+    parser.add_argument("--group", nargs='+', type=float, default=[9,9,9], help='The portion for each group of users')
 
 
     args = parser.parse_args()

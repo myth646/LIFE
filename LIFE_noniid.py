@@ -193,7 +193,7 @@ def parse_args():
     parser.add_argument("--manual_distribution", action="store_true", help='Manual distribution processing')
     parser.add_argument("--dirichlet_alpha", nargs='+', type=float, default=[0.2, 0.5, 1], help='Distribution of dirichlet')
 
-    parser.add_argument("--group", nargs='+', type=float, default=None, help='The portion for each group of users')
+    parser.add_argument("--group", nargs='+', type=float, default=[9,9,9], help='The portion for each group of users')
 
     args = parser.parse_args()
     args.sample_ratio =[args.group[0]/(args.num_users*args.portion[0]/sum(args.portion)), args.group[1]/(args.num_users*args.portion[1]/sum(args.portion)), args.group[2]/(args.num_users*args.portion[2]/sum(args.portion))]
