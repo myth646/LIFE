@@ -174,7 +174,7 @@ def parse_args():
     parser.add_argument("--local_pooler", action="store_true")
 
     parser.add_argument("--portion", nargs='+', type=float, default=None, help='The portion for each group of users')
-    parser.add_argument("--group_proportions", nargs='+', type=float, default=[0.2, 0.3, 0.5], help='Proportion of samples held by each cluster')
+    parser.add_argument("--group_proportions", nargs='+', type=float, default=[0.33, 0.33, 0.33], help='Proportion of samples held by each cluster')
     parser.add_argument("--num_users", type=int, default=1000, help='number of users')
     parser.add_argument("--sample_ratio", type=float, default=0.027, help='users sample ratio per round')
 
