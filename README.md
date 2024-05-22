@@ -23,7 +23,7 @@
   <p> The link to the results of the experiment: </p>
   <ul>
     <li><a href="./output_results/LIFE_cola(999).csv">IID(1:1:1) result</a></li>
-    <p> For IID(19:6:1) please modify '--portion 19 6 1' </p>
+    <p> For IID(19:6:1) please modify '--group 19 6 1' </p>
     <li><a href="./output_results/LIFE_cola(1961).csv">IID(19:6:1) result</a></li>
   </ul>
 </details>
