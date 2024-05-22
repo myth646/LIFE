@@ -99,13 +99,12 @@
 </details>
 
 # InclusiveFL
-<!-- 
-For IID issues, change the filename to 'InclusiveFL_default.py'. 
-For Non-IID issues, change the filename to 'InclusiveFL_default_noniid.py'.
--->
-<!-- 
-For InclusiveFL*. Remove the '--mom_grad' script
--->
+For IID problem, change the filename to 'InclusiveFL_default.py'. 
+For Non-IID problem, change the filename to 'InclusiveFL_default_noniid.py'.
+For InclusiveFL* and and all experiments without momentum distillation. Remove the '--mom_grad' script.
+
+
+
 
 
 
