@@ -3,7 +3,7 @@
 - For InclusiveFL* and all experiments without momentum distillation, please remove the '--mom_grad' script.
 ## SST2
 <details>
-  <summary>IID</summary>
+  <summary>IID </summary>
   <pre><code>python LIFE.py --model_name_or_path roberta-base --task_name sst2 --local_cls --local_one --local_pooler --mom_grad --mom_beta 0.2 --log_round 5 --portion 1 1 1 --pick_percentage 0.1 --rounds 100  --strategy split --leader_epoch 5 --num_users 1000 --seed 1762505000
   </code></pre>
 </details>
@@ -17,7 +17,7 @@
 
 ## COLA
 <details>
-  <summary>IID</summary>
+  <summary>IID [IID(1:1:1)(./output/LIFE_cola(999).csv)]</summary>
   <pre><code>python LIFE.py --model_name_or_path roberta-base --task_name cola --local_cls --local_one --local_pooler --mom_grad --mom_beta 0.2 --log_round 5 --portion 1 1 1 --group_proportions 0.33 0.33 0.33 --group 9 9 9 --pick_percentage 0.1 --rounds 100 --strategy split --sample_ratio 0.027 --leader_epoch 5 --num_users 100 --seed 3829044447
   </code></pre>
 </details>
