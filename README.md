@@ -98,6 +98,17 @@
   </code></pre>
 </details>
 
+# InclusiveFL
+<!-- 
+For IID issues, change the filename to 'InclusiveFL_default.py'. 
+For Non-IID issues, change the filename to 'InclusiveFL_default_noniid.py'.
+-->
+<!-- 
+For InclusiveFL*. Remove the '--mom_grad' script
+-->
+
+
+
 
 
 
