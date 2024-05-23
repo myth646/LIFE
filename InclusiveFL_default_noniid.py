@@ -906,7 +906,7 @@ def main():
             HeteAgg_mom(r, logger, args, aggs, dummy_names, leave_one_names, hete_exclude_name, did2_sample_portion)
     number_str = '_'.join(str(int(num)) for num in args.group)    
     for i in range(len(eval_metrics_list)):
-        prefix = 'Inclusive_nomom' if not args.mom_grad else 'Inclusive'
+        prefix = 'InclusiveFL_nomom' if not args.mom_grad else 'InclusiveFL'
         if not args.manual_distribution:
             save_to_csv(eval_metrics_list[i], f'{prefix}_{args.task_name}_{eval_name[i]}_{args.dirichlet_alpha}_noniid({number_str}).csv')   
         else:
