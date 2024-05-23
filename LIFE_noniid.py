@@ -908,7 +908,7 @@ def main():
                 result = evaluate(idx, r, args, aggs[idx].model, accelerators[idx], eval_dataloader, metric, is_regression, logger, best_eval, best_eval_r, loss, processed_datasets, data_collator)
                 eval_metrics_list[0].append(result)
 
-        if (r+1) % args.log_round == 0:
+        if (r+1) % args.leader_epoch == 0:
             for i in range(len(leaders),0,-1):
                 if i == 2:
                     args.drop_idx.append(0)
