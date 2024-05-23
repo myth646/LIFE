@@ -7,3 +7,5 @@ LIFE_cola_matthews_correlation(9_9_9).csv,3829044447
 LIFE_cola_matthews_correlation(19_6_1).csv,3829044447
 LIFE_stsb_spearmanr(19_6_1).csv,1778707578
 LIFE_stsb_pearson(19_6_1).csv,1778707578
+LIFE_stsb_spearmanr(9_9_9).csv,1778707578
+LIFE_stsb_pearson(9_9_9).csv,1778707578
