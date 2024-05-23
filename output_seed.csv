@@ -13,3 +13,5 @@ LIFE_sst2_accuracy_noiid.csv,1762505000
 LIFE_rte_accuracy_noniid.csv,1661086535
 LIFE_rte_accuracy(9_9_9).csv,1661086535
 LIFE_rte_accuracy(19_6_1).csv,1661086535
+LIFE_mrpc_accuracy_noniid.csv,1046058099
+LIFE_mrpc_f1_noniid.csv,1046058099
