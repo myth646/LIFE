@@ -22,3 +22,4 @@ LIFE_mrpc_f1(19_6_1).csv,1046058099
 LIFE_qnli_accuracy(9_9_9).csv,2512399976
 LIFE_qnli_accuracy(19_6_1).csv,2512399976
 LIFE_qnli_accuracy_noniid.csv,2512399976
+LIFE_sst2_accuracy(9_9_9).csv,1762505000
