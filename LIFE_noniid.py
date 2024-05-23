@@ -965,8 +965,8 @@ def main():
 
     number_str = ''.join(str(num) for num in args.group)    
     for i in range(len(eval_metrics_list)):
-        save_to_csv(eval_metrics_list[i], f'LIFE_{args.task_name}_{eval_name[i]}_noiid.csv')
-        append_to_csv('output_seed.csv', f'LIFE_{args.task_name}_{eval_name[i]}_noiid.csv', args.seed)
+        save_to_csv(eval_metrics_list[i], f'LIFE_{args.task_name}_{eval_name[i]}_noniid.csv')
+        append_to_csv('output_seed.csv', f'LIFE_{args.task_name}_{eval_name[i]}_noniid.csv', args.seed)
 
 
 
