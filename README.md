@@ -20,12 +20,12 @@
   <summary>IID </summary>
   <pre><code>python LIFE.py --model_name_or_path roberta-base --task_name cola --local_cls --local_one --local_pooler --mom_grad --mom_beta 0.2 --log_round 5 --portion 1 1 1 --group_proportions 0.33 0.33 0.33 --group 9 9 9 --pick_percentage 0.1 --rounds 100 --strategy split --sample_ratio 0.027 --leader_epoch 5 --num_users 100 --seed 3829044447
   </code></pre>
-  <p> The link to the results of the experiment: </p>
+  <!--<p> The link to the results of the experiment: </p>
   <ul>
     <li><a href="./output_results/LIFE_cola(999).csv">IID(1:1:1) result</a></li>
     <p> For IID(19:6:1) please modify '--group 19 6 1' </p>
     <li><a href="./output_results/LIFE_cola(1961).csv">IID(19:6:1) result</a></li>
-  </ul>
+  </ul>-->
 </details>
 
 <details>
