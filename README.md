@@ -1,6 +1,7 @@
 # LIFE
 - For InclusiveFL,when experimenting with IId problems, please change the filename to 'InclusiveFL_default.py'. And to 'InclusiveFL_default_noniid.py' when experimenting with Non-IId problems
-- For InclusiveFL* and all experiments without momentum distillation, please remove the '--mom_grad' script.
+- For all experiments without momentum distillation, please remove the '--mom_grad' script.
+- 
 ## SST2
 <details>
   <summary>IID </summary>
@@ -178,7 +179,7 @@
 ## Note on the requirements.txt file
 <details>
   The requirements.txt file is generated using Google Colab.
-  
+
   The necessary libraries are as follows: argparse, logging, pandas, matplotlib, torch, datasets, tqdm, transformers, accelerate, huggingface_hub.
 
   If you are running experiments on Google Colab, you need to ensure that the 'accelerate' and 'datasets' libraries are installed. You can do this by running the following commands in a Colab cell '!pip install accelerate datasets'
