@@ -1,7 +1,6 @@
 # LIFE
 - For InclusiveFL,when experimenting with IId problems, please change the filename to 'InclusiveFL_default.py'. And to 'InclusiveFL_default_noniid.py' when experimenting with Non-IId problems
 - For all experiments without momentum distillation, please remove the '--mom_grad' script.
-- 
 ## SST2
 <details>
   <summary>IID </summary>
