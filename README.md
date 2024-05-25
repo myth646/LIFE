@@ -175,24 +175,10 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Note on the requirements.txt file
+<details>
+  The requirements.txt file is generated using Google Colab.
+  The necessary libraries are as follows: argparse,logging,pandas,matplotlib,torch,datasets,tqdm,transformers,accelerate,huggingface_hub.
+  If you are running experiments on Google Colab, you need to ensure that the 'accelerate' and 'datasets' libraries are installed. You can do this by running the following commands in a Colab cell '!pip install accelerate datasets'
+  
+</details>
